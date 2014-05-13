@@ -76,9 +76,9 @@
             hour = ((now.hours() % 12) / 12) * 360 + 90 + minute / 12;
 
 
-        $('#hour').css("transform", "rotate(" + hour + "deg)");
-        $('#minute').css("transform", "rotate(" + minute + "deg)");
-        $('#second').css("transform", "rotate(" + second + "deg)");
+        $('.hour').css("transform", "rotate(" + hour + "deg)");
+        $('.minute').css("transform", "rotate(" + minute + "deg)");
+        $('.second').css("transform", "rotate(" + second + "deg)");
     }
 
     function timedUpdate () {
