@@ -8,15 +8,14 @@ jQuery(document).ready(function(){
 		$('.dial .d' + d).css("transform", "rotate(" + dial + "deg)");		
 	}
 	
-	
-	
 	// Share
 	$('.share_btn').click(function () {
 	    $(this).fadeOut(100);
 	    $('footer article').fadeIn(300);
 	    return false;
 	});
-
+	
+	// Close share
 	$('body').click(function(e) {   
 		if( !$(e.target).is('footer header, footer header a, .fb-like, .twitter-share-button, .github') ){
 		    $('footer article').fadeOut(100);
