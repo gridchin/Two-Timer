@@ -34,13 +34,13 @@
   
 <body>	
 
-	<!-- Facebook SDK -->	
+	<!-- Facebook SDK -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=320777074659477";
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.0";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	
@@ -78,15 +78,15 @@
 			<header>Experiment by <a href="http://gridchin.com/" target="_blank">Gridchin</a></header>
 			
 			<!-- Facebook Like -->		
-			<div class="fb-like" data-href="http://gridchin.com/experiments/two-timer/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>	
+			<div class="fb-like" data-href="http://gridchin.com/experiments/two-timer/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
 			
 			<!-- Twitter -->		
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://gridchin.com/experiments/two-timer/" data-text="Two Timer">Tweet</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="gridchin" data-related="gridchin" data-count="none">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			
-	    	<!-- Github -->    	
-	    	<iframe class="github" src="http://ghbtns.com/github-btn.html?user=gridchin&repo=two-timer&type=watch&count=true"
-  allowtransparency="true" frameborder="0" scrolling="0" width="90" height="20"></iframe>   
+			<!-- Github -->    	
+	    	<iframe class="github" src="http://ghbtns.com/github-btn.html?user=gridchin&repo=two-timer&type=watch"
+  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>	    	 
     	</article>
     </footer>
     

@@ -303,23 +303,20 @@
 		
 	footer .fb-like{	
 		position: absolute;	
-		top: 34px;	
+		top: 35px;	
 		left: 0;
-		min-width: 90px;
-		max-height: 22px;
-		overflow: hidden;
 	}
 	
 	footer .twitter-share-button{	
 		position: absolute;	
 		top: 35px;
-		left: 100px;
+		left: 71px;
 	}
 	
 	footer .github{	
 		position: absolute;	
 		top: 35px;	
-		left: 200px;
+		left: 150px;
 	}
 	
 	
