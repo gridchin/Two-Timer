@@ -31,6 +31,7 @@ jQuery(document).ready(function(){
 		$('.dial .d' + d).css('margin-top', marginTop + 'px');
 	}	
 	
+/*
 	// Share
 	$('.share_btn').click(function () {
 	    $(this).fadeOut(100);
@@ -45,5 +46,6 @@ jQuery(document).ready(function(){
 	    	$('.share_btn').fadeIn(300);
 		}
 	});
+*/
 		
 })

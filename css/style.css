@@ -43,7 +43,7 @@
 	}
 	
 	a:hover{
-		color: #e73124;
+		color: #3f3e46;
 	}
 	
 	*{
@@ -51,7 +51,7 @@
 		   -moz-box-sizing: border-box;
 	    	 	box-sizing: border-box;
 	}
-	
+		
 
 /*	Clock	
 	-----	*/
@@ -271,55 +271,51 @@
 	}
 	
 
-/*	Footer	
+/*	Social	
 	------	*/
 	
-	footer{
+	.social{
 		z-index: 5;
 		position: fixed;	
 		top: 40px;	
 		left: 45px;
 	}
 	
-	footer .share_btn{
-		position: absolute;
-		top: 0;
-		left: -5px;
-		width: 40px;
-		height: 40px;
-		background: transparent url('../img/share.svg') no-repeat center;
-		text-indent: -9999em;
-		display: block;
-		opacity: .3;
+	.social h1{
+		font-size: 14px;
+		font-weight: 300;
+		margin-bottom: 10px;
 	}
 	
-	footer .share_btn:hover{
-		opacity: 1;
-	}
-	
-	footer article{
-		display: none;
-	}
+	.social li{
+		list-style-type: none;
 		
-	footer .fb-like{	
-		position: absolute;	
-		top: 35px;	
-		left: 0;
+		margin-right: 5px;
+		display: inline-block;
+		*display: inline;
 	}
 	
-	footer .twitter-share-button{	
-		position: absolute;	
-		top: 35px;
-		left: 71px;
+	.social li a{
+		font-size: 25px;
+		line-height: 1.8;
+		color: #fff;
+		text-align: center;
+		width: 50px;
+		height: 50px;
+		display: block;
+		border: 2px solid #fff;
+		text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+		-webkit-border-radius: 50%;
+		   -moz-border-radius: 50%;
+				border-radius: 50%;
 	}
 	
-	footer .github{	
-		position: absolute;	
-		top: 35px;	
-		left: 150px;
+	.social li a:hover{
+		color: #fff;
+		background-color: rgba(63,62,70,.2);
 	}
 	
-	
+		
 /*	Mobile	
 	------	*/
 	
@@ -338,7 +334,7 @@
 			display: none;
 		}
 		
-		footer{
+		.social{
 			top: 25px;	
 			left: 30px;
 		}
