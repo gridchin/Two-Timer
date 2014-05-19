@@ -17,7 +17,7 @@
 	font-style: normal;
 }
  
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]::before, [class*=" icon-"]::before {
 	font-family: "icons";
 	font-style: normal;
 	font-weight: normal;
@@ -31,6 +31,6 @@
 	line-height: 1em;
 }
  
-.icon-facebook:before { content: '\e801'; }
-.icon-github:before { content: '\e802'; }
-.icon-twitter:before { content: '\e800'; }
+.icon-facebook::before { content: '\e801'; }
+.icon-github::before { content: '\e802'; }
+.icon-twitter::before { content: '\e800'; }
